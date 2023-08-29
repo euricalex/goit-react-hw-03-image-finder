@@ -28,13 +28,7 @@ export default class SearchBar extends Component {
     this.props.onReset(); // Виклик функції resetGallery з батьківського елементу
   };
 
-  // Обробник скролу догори
-  handleScrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth", // Плавний скрол
-    });
-  };
+  
 
   render() {
     return (
@@ -53,7 +47,7 @@ export default class SearchBar extends Component {
           />
         </SearchForm>
         <ResetButton type='button' onClick={this.handleReset} >reset</ResetButton>
-        <OnTopButton type='button' onClick={this.handleScrollToTop} >up</OnTopButton>
+       
       </SearchbarHeader>
     );
   }
