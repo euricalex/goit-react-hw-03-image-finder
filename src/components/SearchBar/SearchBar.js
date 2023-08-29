@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { SearchbarHeader, SearchForm, SearchFormButton, SearchFormInput, ResetButton, OnTopButton } from './SearchBar.styled';
+import { SearchbarHeader, SearchForm, SearchFormButton, SearchFormInput, ResetButton } from './SearchBar.styled';
 import { BiSearchAlt } from 'react-icons/bi';
 
 import 'react-toastify/dist/ReactToastify.css'; // Імпорт стилів для сповіщень
